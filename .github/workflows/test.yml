@@ -12,7 +12,7 @@ env:
   GITHUB_PAT: ${{ secrets.COMPOST_D_GHA_PAT }}
   COVERAGE: '0'
   PHP_EXTENSIONS: curl
-  PHP_EXTENSIONS_CACHE_KEY: cache-php-extensions-v1
+  PHP_EXTENSIONS_CACHE_KEY: cache-php-extensions-v2
 
 
 jobs:

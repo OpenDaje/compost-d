@@ -13,7 +13,7 @@ class SystemClock implements Clock
     {
         $this->timeZone = $timeZone ?? new DateTimeZone('UTC');
     }
-    
+
     public function time(): DateTimeImmutable
     {
         return new DateTimeImmutable('now', $this->timeZone);

@@ -16,8 +16,8 @@ class SystemClockTest extends TestCase
     public function it_generates_very_precise_date_time_immutables(): void
     {
         $clock = new SystemClock();
-        $d1 = $clock->dateTime();
-        $d2 = $clock->dateTime();
+        $d1 = $clock->time();
+        $d2 = $clock->time();
         self::assertTrue($d1 < $d2);
     }
 }

@@ -7,8 +7,8 @@ use DateTimeZone;
 use InvalidArgumentException;
 
 /**
- * This file is part of medicalmundi/brotea.
- * (c) 2021-2021 Zerai Teclai <teclaizerai@gmail.com>
+ * This file is part of opendaje/compost-d.
+ * (c) 2021-2022 Zerai Teclai <teclaizerai@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.

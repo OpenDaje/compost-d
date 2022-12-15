@@ -9,10 +9,10 @@ jobs:
     with:
       triggering-sha: "${{ github.sha }}"
 
-#  publish-metrics-workflow:
-#    name: Publish Metrics
-#    needs:
-#      - commit-stage-workflow
-#    uses: OpenDaje/compost-d/.github/workflows/publish-coverage-metrics.yaml@main
-#    with:
-#      triggering-sha: "${{ github.sha }}"
+  publish-metrics-workflow:
+    name: Publish Metrics
+    needs:
+      - commit-stage-workflow
+    uses: OpenDaje/compost-d/.github/workflows/publish-coverage-metrics.yaml@main
+    with:
+      triggering-sha: "${{ github.sha }}"
